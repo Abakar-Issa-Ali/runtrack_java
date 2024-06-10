@@ -8,7 +8,7 @@ public class Facture{
         double montantTaxe = tarifHT * tva;
         double tarifTTC = tarifHT + montantTaxe;
 
-      
+        
         System.out.println("Le montant total est : " + tarifHT );
         System.out.println("Le montant de la taxe est : " + montantTaxe);
         System.out.println("Le montant total à payer est : " + tarifTTC );
